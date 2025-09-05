@@ -1,0 +1,13 @@
+{
+  "name": "suportenet-webhook",
+  "version": "1.0.0",
+  "description": "Dialogflow ES webhook for SuporteNet chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
