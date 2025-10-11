@@ -1,0 +1,12 @@
+﻿node_modules/
+.env
+data/*.json
+
+# logs/temporários
+npm-debug.log*
+*.log
+
+# editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
