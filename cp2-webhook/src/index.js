@@ -215,10 +215,11 @@ app.post("/webhook", async (req, res) => {
 
     return res.json(buildResponse(messages, result.outputContexts));
   } catch (err) {
-    console.error(\`[\${requestId}]\`, err);
+    console.error(`[${requestId}]`, err);
     return res.status(500).json(buildResponse([buildText("Falha ao processar sua solicitação. Tente novamente em instantes.")]));
   }
 });
 
 /* start */
-app.listen(PORT, () => console.log(\`Webhook online na porta \${PORT}\`));
+app.listen(PORT, () => console.log(`Webhook online na porta ${PORT}`));
+
