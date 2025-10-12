@@ -1,0 +1,21 @@
+{
+  "chamados": [
+    {
+      "protocolo": "SN-11B55244",
+      "problema": "Sem conex�o",
+      "endereco": "Rua das Flores, 123",
+      "cidade": "S�o Paulo",
+      "plano": "300 Mega",
+      "numeroCliente": "CLI-778899",
+      "janela": {
+        "data": "2025-10-12",
+        "hora": "14:00"
+      },
+      "status": "ABERTO",
+      "session": "projects/demo/agent/sessions/abc",
+      "createdAt": "2025-10-12T18:40:37.567Z"
+    }
+  ],
+  "agendamentos": [],
+  "pedidos": []
+}
